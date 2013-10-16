@@ -10,6 +10,6 @@ public class HelloWorld {
     }
 
     public String hello(String user) {
-        return "Hello " + user + "! What can web do for you today?";
+        return "Hello " + user + "!";
     }
 }

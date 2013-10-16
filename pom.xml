@@ -77,6 +77,8 @@
                   <s3Key>${project.artifactId}/${project.build.finalName}-${maven.build.timestamp}.war</s3Key>
                   <cnamePrefix>asedemo2</cnamePrefix>
                   <environmentName>aseDemo-env</environmentName>
+                  <versionLabel>${maven.build.timestamp}</versionLabel>
+                  <useLatestVersionLabel>false</useLatestVersionLabel>
               </configuration>
           </plugin>
       </plugins>
